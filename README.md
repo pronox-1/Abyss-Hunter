@@ -1,20 +1,15 @@
-# Abyss Hunter
+# MONORA × NACHTSIEGEL – Erweiterte Fusion v0.2
 
-Ein spielbarer 2D-Arena-Shooter für den Browser, ohne Framework oder Installation.
+Start: `index.html` mit allen beiliegenden Dateien in denselben Ordner legen und über einen Webserver (z. B. GitHub Pages) öffnen.
 
-## Start
+## Navigation
+Unten befindet sich eine dauerhafte, deutlich sichtbare Leiste: Karten-Arena, Deckbau, Kartensammlung, Booster.
 
-`index.html` per Doppelklick im Browser öffnen.
+## Kartensystem
+Wilde Monster und Trainer verwenden die integrierte NACHTSIEGEL-Kampfengine. Im Fusionsdeck werden gefangene Monster zu Kreaturenkarten. Elementare Aktionskarten erfordern ein aktives Monster desselben Elements.
 
-## Steuerung
+## Vollständige Karten-Arena
+Die Karten-Arena zeigt zusätzlich das vollständige originale NACHTSIEGEL mit seinen Menüs und seinem ursprünglichen Kartenspiel. **Einschränkung:** Dieses Originalmodul führt noch einen getrennten NACHTSIEGEL-Spielstand; das Fusionsdeck wird im eigenen Deckbau-Menü verwaltet. Es ist daher noch keine vollständige einheitliche Fusion aller Menüs.
 
-- **WASD** oder **Pfeiltasten**: bewegen
-- **Maus**: zielen
-- **Linksklick** oder **Leertaste**: schießen
-- **R**: Neustart
-
-Besiege Gegner, sammle Punkte und überlebe immer schwierigere Wellen.
-
-## GitHub Pages
-
-Repository hochladen, unter **Settings → Pages** die Veröffentlichung über den `main`-Branch und `/ (root)` aktivieren.
+## Speicherstände
+Vor Tests MONORA-Spielstand exportieren. Beide Spiele verwenden lokale Browser-Speicherung.
